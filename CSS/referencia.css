@@ -1,0 +1,18 @@
+.h3r{
+    color: black;
+    font-size: 24px;
+}
+
+@media(max-width:950px) { 
+    .h3r{
+        color: black;
+        font-size: 24px;
+        width: 15rem;
+    }
+
+    .cuadro{
+        width: 1rem;
+    }
+    
+    
+}

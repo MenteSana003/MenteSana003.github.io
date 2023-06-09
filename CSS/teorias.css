@@ -1,0 +1,57 @@
+.h3{
+    text-align: center;
+}
+
+
+.teorias {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 2rem;
+    row-gap: 10rem;
+    height: 1rem;
+}
+
+.teoria {
+    text-align:center;
+    height: auto;
+    border-radius: 2rem;
+    background-color: #F6F1F1;
+    border: 5rem solid #F6F1F1;
+}
+
+.darwin{
+    margin-left: 13rem;
+}
+
+@media(max-width:950px) { 
+    .h3{
+        text-align: center;
+    }
+    
+    
+    .teorias {
+        display: grid;
+        grid-template-columns:100%;
+        column-gap: 2rem;
+        row-gap: 10rem;
+        height: 1rem;
+    }
+    
+    .teoria {
+        text-align:center;
+        height: auto;
+        border-radius: 2rem;
+        background-color: #F6F1F1;
+        border: 5rem solid #F6F1F1;
+        margin-left: -7rem;
+    }
+    
+    .darwin{
+        margin-left: 13rem;
+    }
+
+    .footer-teorias{
+        margin-top: 400rem;
+    }
+
+} 

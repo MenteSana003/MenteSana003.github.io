@@ -1,0 +1,57 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --fondo: #F6F1F1;
+    --primario: #146C94;
+    --secundario: #19A7CE;
+}
+
+.borde {
+    margin:0rem 15rem auto;
+}
+
+* {
+    background-color: var(--fondo);
+}
+
+h1 { /*Títulos*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--primario);
+    font-size: 9rem;
+    line-height: 2.0;
+    text-align: center;
+}
+
+h3 {
+    font-family:monospace;
+    color: var(--secundario);
+    font-size: 25px;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+h6 {
+    color: var(--fondo);
+}
+
+p {
+    font-family:monospace;
+    color: var(--negro);
+    font-size: 22px;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+p span{
+    color: var(--secundario);
+}
+
+.borde p a {
+    font-family:monospace;
+    color: var(--secundario);
+    font-size: 25px;
+    line-height: 1.5;
+    text-align:justify;
+    text-decoration: none;
+}
+
